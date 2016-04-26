@@ -2,7 +2,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 
-sourceCompatibility = 1.7
+sourceCompatibility = 1.8
 version = '1.0'
 mainClassName = "gitServeLambda"
 
@@ -20,8 +20,6 @@ dependencies {
     compile 'com.amazonaws:aws-lambda-java-events:1.1.0'
     compile 'org.rauschig:jarchivelib:0.7.1'
     compile 'com.restfb:restfb:1.22.0'
-
-    
 }
 
 test {
